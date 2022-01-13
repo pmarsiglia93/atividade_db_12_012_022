@@ -3,7 +3,7 @@ CREATE DATABASE rh_funcionarios;
 USE rh_funcionarios;
 
 CREATE TABLE tb_funcionarios (
-	id_funcionario INT NOT NULL AUTO_INCREMENT,
+    id_funcionario INT NOT NULL AUTO_INCREMENT,
     nome_funcionario VARCHAR(45),
     sobrenome_funcionario VARCHAR(45),
     salario_funcionario FLOAT,
